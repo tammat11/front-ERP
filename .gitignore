@@ -1,0 +1,19 @@
+# Живые данные Битрикса и локальное состояние панели — не в репозиторий
+data/
+__pycache__/
+*.pyc
+*.reset-*
+local_state.json
+local_journal.jsonl
+
+# Секреты
+.env
+.env.*
+config.json
+*.key
+*.pem
+
+# Мусор
+.DS_Store
+*.new
+*.log
